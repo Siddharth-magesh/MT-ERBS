@@ -1,0 +1,46 @@
+Benchmark Results (Mean ± Std)
+==================================================
+
+Strategy: Baseline
+travel_time: 35.00 ± 0.00
+blocking_time: 32.80 ± 1.52
+avg_delay: 24.38 ± 0.73
+spillbacks: 82.73 ± 14.14
+switches: 7.00 ± 0.00
+avg_queue_length: 27.22 ± 0.49
+p95_delay: 12864.00 ± 421.29
+throughput: 954.00 ± 6.45
+Arrival success rate: 100.0%
+
+Strategy: MT_ERBS
+travel_time: 35.00 ± 0.00
+blocking_time: 26.13 ± 1.36
+avg_delay: 22.32 ± 0.74
+spillbacks: 65.33 ± 12.00
+switches: 7.00 ± 0.00
+avg_queue_length: 24.61 ± 0.68
+p95_delay: 11796.14 ± 429.36
+throughput: 1056.00 ± 9.97
+Arrival success rate: 100.0%
+
+Strategy: StressTest
+travel_time: 35.00 ± 0.00
+blocking_time: 33.33 ± 1.63
+avg_delay: 35.99 ± 0.33
+spillbacks: 515.80 ± 11.28
+switches: 7.00 ± 0.00
+avg_queue_length: 29.39 ± 0.14
+p95_delay: 19691.53 ± 194.08
+throughput: 1129.53 ± 4.82
+Arrival success rate: 100.0%
+
+Strategy: Blockages
+travel_time: 35.00 ± 0.00
+blocking_time: 23.27 ± 2.31
+avg_delay: 19.58 ± 0.54
+spillbacks: 60.47 ± 12.84
+switches: 6.20 ± 0.10
+avg_queue_length: 23.64 ± 0.86
+p95_delay: 10347.02 ± 311.57
+throughput: 933.47 ± 20.01
+Arrival success rate: 100.0%
