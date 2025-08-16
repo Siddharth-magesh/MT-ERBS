@@ -64,13 +64,14 @@ This repository contains our AI-driven approach to intelligent traffic managemen
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/mt-erbs.git
+   git clone https://github.com/Siddharth-magesh/MT-ERBS.git
    cd mt-erbs
    ```
 
 2. Run the benchmarking tool:
    ```bash
-   python benchmarking_tool.py
+   uv sync
+   uv run benchmarking_tool.py
    ```
 
 3. View outputs in:
